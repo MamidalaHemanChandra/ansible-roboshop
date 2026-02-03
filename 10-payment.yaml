@@ -54,7 +54,7 @@
 
   - name: copy payment service
     ansible.builtin.copy:
-      src: shipping.service
+      src: payment.service
       dest: /etc/systemd/system/payment.service
 
   - name: start enable payment
