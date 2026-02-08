@@ -1,0 +1,4 @@
+- name: frontend
+  ansible.builtin.dnf:
+    name: nginx
+    state: present
