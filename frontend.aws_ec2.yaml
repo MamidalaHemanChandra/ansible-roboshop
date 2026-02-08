@@ -10,5 +10,3 @@ keyed_groups:
   - key: tags.Name
     prefix: dynamic
     separator: "_"
-compose:
-ansible_host: private_ip_address
