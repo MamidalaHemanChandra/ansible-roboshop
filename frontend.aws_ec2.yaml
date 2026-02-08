@@ -5,7 +5,7 @@ filters:
   tag:Name: frontend
   instance-state-name: running
 hostnames:
-  - private-ip-addres
+  - private-ip-address
 compose:
   ansible_host: private_ip_address
 keyed_groups:
